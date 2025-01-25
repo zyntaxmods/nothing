@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  font-family: "Tinos", serif;
+  font-size: 25px;
+  line-height: 1.5;
+  color: black;
+}
+.mainCont{
+  width: 300px;
+  border: 1px solid white;
+  padding:20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:400px auto;
+  letter-spacing: 0;
+  color: white;
+}
+.clue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:-21px auto;
+  left: 289px;
+  position: absolute;
+}
+@media screen and (max-width:500px){
+  .mainCont{
+    margin: 200px auto;
+  }
+  .clue{
+    white-space: nowrap;
+    left:20px;
+    font-size: 20px;
+  }
+}
